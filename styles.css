@@ -2,18 +2,21 @@
     /* Estilos globales para el cuerpo del documento */
 body {
     /* Tipo de letra utilizado */
-    font-family: Arial Black;
+    font-family: "Roboto Condensed", sans-serif;
     /* Elimina los márgenes y el relleno por defecto */
     margin: 0;
     padding: 0;
     /* Color de fondo del sitio web */
-    background-color: #722F37;
+    background-image: url("w.jpg");
+    background-size: cover;
+    text-align: center;
 }
 
 /* Estilos para el encabezado */
 header {
+    font-family: "Kanit", sans-serif;
     /* Color de fondo del encabezado */
-    background-color: #333;
+    background-color: #930A0A;
     /* Color del texto en el encabezado */
     color: #fff;
     /* Relleno interno del encabezado */
@@ -31,7 +34,7 @@ nav ul {
     /* Alineación del texto en el centro */
     text-align: center;
     /* Color de fondo de la barra de navegación */
-    background-color: #444;
+    background-color: #297373;
     /* Elimina los márgenes */
     margin: 0;
 }
@@ -62,8 +65,9 @@ main {
 
 /* Estilos para el pie de página */
 footer {
+    font-family: "Bebas Neue", sans-serif;
     /* Color de fondo del pie de página */
-    background-color: #333;
+    background-color: #297373;
     /* Color del texto en el pie de página */
     color: #fff;
     /* Alineación del texto en el centro */
@@ -74,5 +78,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-</style>
+}</style>
