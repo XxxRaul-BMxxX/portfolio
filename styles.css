@@ -141,8 +141,8 @@ footer {
             flex: 0 0 100%; /* Cada imagen ocupa el 100% del contenedor */
         }
         .slider-item img {
-            width: 300px; /* Las imágenes se ajustan al ancho del contenedor */
-            height: 500px;
+            width: 500px; /* Las imágenes se ajustan al ancho del contenedor */
+            height: 300px;
         }
         .prev, .next {
             cursor: pointer;
