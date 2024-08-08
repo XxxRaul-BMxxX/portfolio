@@ -78,7 +78,7 @@ nav ul {
     /* Elimina el relleno interno */
     padding: 0;
     /* Alineación del texto en el centro */
-    text-align: relative;
+    text-align: center;
     /* Color de fondo de la barra de navegación */
     background-color: #297373;
     /* Elimina los márgenes */
