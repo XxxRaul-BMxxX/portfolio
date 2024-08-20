@@ -3,13 +3,10 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- Especifica el tipo de documento y la versión de HTML -->
     <meta charset="UTF-8">
-    <!-- Configura el viewport para que el sitio sea responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Título de la página que aparece en la pestaña del navegador -->
     <title>Rakun Portfolio</title>
 
     <!-- STYLESHEET -->
@@ -17,37 +14,35 @@
     
 </head>
 <body>
-    <!-- Sección de encabezado del sitio -->
     <header>
         <h1>Welcome to my portfolio</h1>
-        <p>hello i am a digital designer</p>
+        <p>Hello, I am a digital designer</p>
     </header>
-    <!-- Barra de navegación con enlaces -->
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about me.html">About me</a></li>
+            <li><a href="about-me.html">About Me</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="portfolio.html">portfolio</li>
+            <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
     </nav>
-    <!-- Contenido principal de la página -->
     <main>
         <section>
-            <h2>hello welcome to my portfolio</h2>
-            <p>watch the following video maybe it will help you it is from The Goose Tavern channel</p>
-        <img src="Rk.png" width="500" height="315">  
+            <h2>Hello, welcome to my portfolio</h2>
+            <p>Watch the following video, maybe it will help you. It is from The Goose Tavern channel.</p>
+            <img src="Rk.png" width="500" height="315" alt="Example Image">  
 
             <iframe width="560" height="315" src="https://www.youtube.com/embed/mZ-bUpQEJNk?si=ZRPPANrASIePvMsm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
-        <h1> Image search API</h1>
+        <h1>Image Search API</h1>
+        <label for="query">Search for images:</label>
         <input type="text" id="query" placeholder="Enter search term">
-        <button onclick="searchPhotos()"> search </button>
-        <div id="photos"> </div>
+        <button onclick="searchPhotos()">Search</button>
+        <div id="photos"></div>
     </main>
     
     <script>
-              //Unsplash Photo Search API
+        // Unsplash Photo Search API
         const API_KEY = 'vv8wNWiT0nz55iZjPw8AV2W2_NWKKbVCKEaM6a0HnQs';
 
         async function searchPhotos() {
@@ -66,9 +61,7 @@
                 photosDiv.appendChild(img);
             });
         }
-
     </script>
-    <!-- Pie de página del sitio -->
     <footer>
         <p>&copy; 2024 My first website</p>
     </footer>
