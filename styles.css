@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     /* Color de fondo del sitio web */
-    background-image: url("w.jpg");
+    background-color:#F5F1ED;
     background-size: cover;
     text-align: center;
 }
@@ -32,7 +32,7 @@ nav ul {
     /* Alineación del texto en el centro */
     text-align: center;
     /* Color de fondo de la barra de navegación */
-    background-color: #444;
+    background-color: #7D8491;
     /* Elimina los márgenes */
     margin: 0;
 }
@@ -80,7 +80,7 @@ nav ul {
     /* Alineación del texto en el centro */
     text-align: center;
     /* Color de fondo de la barra de navegación */
-    background-color: #297373;
+    background-color: #7D8491;
     /* Elimina los márgenes */
     margin: 0;
 }
@@ -113,7 +113,7 @@ main {
 footer {
     font-family: "Bebas Neue", sans-serif;
     /* Color de fondo del pie de página */
-    background-color: #297373;
+    background-color: #7D8491;
     /* Color del texto en el pie de página */
     color: #fff;
     /* Alineación del texto en el centro */
