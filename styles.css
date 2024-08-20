@@ -1,12 +1,8 @@
-   /* Estilos globales para el cuerpo del documento */
 body {
-    /* Tipo de letra utilizado */
     font-family: "Roboto Condensed", sans-serif;
-    /* Elimina los márgenes y el relleno por defecto */
     margin: 0;
     padding: 0;
-    /* Color de fondo del sitio web */
-    background-color:#F5F1ED;
+    background-color: #F5F1ED;
     background-size: cover;
     text-align: center;
 }
@@ -14,93 +10,50 @@ body {
 /* Estilos para el encabezado */
 header {
     font-family: "Kanit", sans-serif;
-    /* Color de fondo del encabezado */
     background-color: #930A0A;
-    /* Color del texto en el encabezado */
     color: #fff;
-    /* Relleno interno del encabezado */
     padding: 1rem 0;
-    /* Alineación del texto en el centro */
     text-align: center;
 }
+
 /* Estilos para la barra de navegación */
 nav ul {
-    /* Elimina el estilo de lista por defecto */
     list-style-type: none;
-    /* Elimina el relleno interno */
     padding: 0;
-    /* Alineación del texto en el centro */
     text-align: center;
-    /* Color de fondo de la barra de navegación */
     background-color: #7D8491;
-    /* Elimina los márgenes */
     margin: 0;
 }
 
-/* Estilos para los elementos de la lista en la barra de navegación */
 nav ul li {
-    /* Muestra los elementos en línea */
     display: inline-block;
-    /* Elimina los márgenes */
     margin: 0;
     position: relative;
 }
 
-/* Estilos para los enlaces en la barra de navegación */
 nav ul li a {
     display: block;
-            padding: 10px 20px;
-            text-decoration: none;
-            color: white;
-        }
-
-        nav ul li ul {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        nav ul li ul li {
-            display: block;
-        }
-        nav ul li:hover ul {
-            display: block;
-        }
-
-/* Estilos para la barra de navegación */
-nav ul {
-    /* Elimina el estilo de lista por defecto */
-    list-style: none;
-    /* Elimina el relleno interno */
-    padding: 0;
-    /* Alineación del texto en el centro */
-    text-align: center;
-    /* Color de fondo de la barra de navegación */
-    background-color: #7D8491;
-    /* Elimina los márgenes */
-    margin: 0;
-}
-
-/* Estilos para los elementos de la lista en la barra de navegación */
-nav ul li {
-    /* Muestra los elementos en línea */
-    display: inline;
-    /* Elimina los márgenes */
-    margin: 0;
-}
-
-/* Estilos para los enlaces en la barra de navegación */
-nav ul li a {
-    /* Color del texto del enlace */
-    color: #fff;
-    /* Relleno interno del enlace */
-    padding: 0.5rem 1rem;
-    /* Elimina el subrayado por defecto */
+    padding: 10px 20px;
     text-decoration: none;
+    color: white;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li ul li {
+    display: block;
+}
+
+nav ul li:hover ul {
+    display: block;
 }
 
 /* Estilos para el contenido principal */
