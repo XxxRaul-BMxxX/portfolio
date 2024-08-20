@@ -37,58 +37,12 @@
     </nav>
     <!-- Contenido principal de la página -->
     <main>
-        <section>
-           <div class="slider-container">
-        <div class="slider-content">
-            <div class="slider-item">
-                <img src="pixelcy.jpg" alt="Imagen 1">
-            </div>
-            <div class="slider-item">
-                <img src="pixelcy2.jpg" alt="Imagen 2">
-            </div>
-            <div class="slider-item">
-                <img src="pixelcy3.jpg" alt="Imagen 3">
-            </div>
-             <div class="slider-item">
-                <img src="pixelcy4.jpg" alt="Imagen 3">
-            </div>
-             <div class="slider-item">
-                <img src="pixelcy5.jpg" alt="Imagen 3">
-            </div>
+        <div style="background-color: #c9d5b5; padding: 20px; border-radius: 8px; max-width: 600px; margin: 0 auto; text-align: center;">
+            <img src="Rk choper.png" alt="Imagen de Rakun" style="max-width: 100%; height: auto; border-radius: 8px;">
+            <p style="margin-top: 20px; font-family: 'Roboto Condensed', sans-serif; font-size: 16px;">
+                Hi everyone, my name is Raul Barreto Martinez, but I'm better known as Rakun. I love making logos and illustrations and currently I want to make more 3D content. I really like Blender. I would describe myself as a creative and somewhat dreamy person.
+            </p>
         </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-
-    <script>
-               let slideIndex = 0;
-        showSlides();
-
-        function plusSlides(n) {
-            slideIndex += n;
-            showSlides();
-        }
-
-        function showSlides() {
-            const slides = document.querySelectorAll(".slider-item");
-            if (slideIndex >= slides.length) {
-                slideIndex = 0;
-            }
-            if (slideIndex < 0) {
-                slideIndex = slides.length - 1;
-            }
-            slides.forEach((slide, index) => {
-                slide.style.display = index === slideIndex ? "block" : "none";
-            });
-            setTimeout(() => {
-                slideIndex++;
-                showSlides();
-            }, 8000); // Cambia la imagen cada 2 segundos
-        }
-
-    </script>
-       
-        </section>
     </main>
     <!-- Pie de página del sitio -->
     <footer>
